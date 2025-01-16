@@ -156,5 +156,14 @@
     </group>
 
     <action id="VimFindActionIdAction" class="com.maddyhome.idea.vim.listener.FindActionIdAction"/>
+
+
+    <action id="ToggleUIElementHighlights"
+            class="com.maddyhome.idea.vim.ui.action.ToggleUIElementHighlights"
+            text="Toggle UI Element Highlights">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+      <keyboard-shortcut first-keystroke="ctrl shift H" keymap="$default"/>
+    </action>
+    
   </actions>
 </idea-plugin>
