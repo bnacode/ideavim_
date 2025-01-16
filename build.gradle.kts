@@ -71,7 +71,7 @@ plugins {
   id("java-test-fixtures")
   id("org.jetbrains.intellij.platform") version "2.2.1"
   id("org.jetbrains.changelog") version "2.2.1"
-  id("org.jetbrains.kotlinx.kover") version "0.6.1"
+  id("org.jetbrains.kotlinx.kover") version "0.9.1"
   id("com.dorongold.task-tree") version "4.0.0"
   id("com.google.devtools.ksp") version "2.0.0-1.0.23"
 }
