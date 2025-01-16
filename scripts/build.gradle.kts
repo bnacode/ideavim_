@@ -27,7 +27,7 @@ dependencies {
   implementation("io.ktor:ktor-client-content-negotiation:3.0.3")
   implementation("io.ktor:ktor-serialization-kotlinx-json:3.0.3")
   implementation("io.ktor:ktor-client-auth:3.0.3")
-  implementation("org.eclipse.jgit:org.eclipse.jgit:6.6.0.202305301015-r")
+  implementation("org.eclipse.jgit:org.eclipse.jgit:7.1.0.202411261347-r")
 
   // This is needed for jgit to connect to ssh
   implementation("org.eclipse.jgit:org.eclipse.jgit.ssh.apache:7.1.0.202411261347-r")
